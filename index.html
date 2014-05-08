@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <script src="Timer.js"></script>
+        <script src="Board.js"></script>
+        <script src="BoardCanvas.js"></script>
+        <script src="Canvas.js"></script>
+        <script src="EndingCanvas.js"></script>
+        <script src="Random.js"></script>
+        <script src="RuneWizard.js"></script>
+        <script src="RuneWizardCanvas.js"></script>
+        <script src="Scene.js"></script>
+        <script src="howler.js"></script>
+        <script src="Sounds.js"></script>
+        <script src="jquery.js"></script>
+        <script src="main.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+        <title>Rune Wizard</title>
+    </head>
+    <body class="noSelect">
+        <img id="graphics" src="graphics.png" style="display: none"/>
+        <canvas></canvas>
+        <div id="touchControls">
+            <div id="titleControlSet">
+                <div class="control disabled">&nbsp;</div><div class="control color2 up" data-keycode="UP">&nbsp;</div><div class="control color1 fire" data-keycode="FIRE">&nbsp;</div>
+                <div class="control disabled">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control disabled">&nbsp;</div>
+            </div>
+            <div id="howToPlayControlSet">
+                <div class="control disabled">&nbsp;</div><div class="control color2 up" data-keycode="UP">&nbsp;</div><div class="control disabled">&nbsp;</div>
+                <div class="control color3 left" data-keycode="LEFT">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control disabled">&nbsp;</div>
+            </div>
+            <div id="playerSelectControlSet">
+                <div class="control disabled">&nbsp;</div><div class="control color2 up" data-keycode="UP">&nbsp;</div><div class="control color1 fire" data-keycode="FIRE">&nbsp;</div>
+                <div class="control color3 left" data-keycode="LEFT">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control color3 right" data-keycode="RIGHT">&nbsp;</div>
+            </div>
+            <div id="boardControlSet">
+                <div class="control color1 counterclockwise" data-keycode="FIRE">&nbsp;</div><div class="control disabled">&nbsp;</div><div class="control color1 clockwise" data-keycode="UP">&nbsp;</div>
+                <div class="control color3 left" data-keycode="LEFT">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control color3 right" data-keycode="RIGHT">&nbsp;</div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+canvas {
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    position: absolute;
+}
+
+.noSelect {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#touchControls {
+    bottom: 0;
+    height: 20%;
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+}
+
+#touchControls > div {
+    display: none;
+    height: 100%;
+}
+
+#touchControls .control {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 50%;
+    width: 33.33%;
+}
+
+#touchControls .disabled {
+    background-color: #111111;
+}
+
+#touchControls .color1 {
+    background-color: #002882;
+}
+
+#touchControls .color1.pressed {
+    background-color: #002068;
+}
+
+#touchControls .color2 {
+    background-color: #be7800;
+}
+
+#touchControls .color2.pressed {
+    background-color: #986000;
+}
+
+#touchControls .color3 {
+    background-color: #0064be;
+}
+
+#touchControls .color3.pressed {
+    background-color: #005098;
+}
+
+#touchControls .color4 {
+    background-color: #823c00;
+}
+
+#touchControls .color4.pressed {
+    background-color: #683000;
+}
+
+#touchControls .up {
+    background-image: url(images/up.png);
+}
+
+#touchControls .down {
+    background-image: url(images/down.png);
+}
+
+#touchControls .left{
+    background-image: url(images/left.png);
+}
+
+#touchControls .right{
+    background-image: url(images/right.png);
+}
+
+#touchControls .fire {
+    background-image: url(images/fire.png);
+}
+
+#touchControls .clockwise {
+    background-image: url(images/clockwise.png);
+}
+
+#touchControls .counterclockwise {
+    background-image: url(images/counterclockwise.png);
+}
