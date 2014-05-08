@@ -22,7 +22,7 @@ canvas {
 
 #touchControls {
     bottom: 0;
-    height: 20%;
+    height: 30%;
     position: absolute;
     width: 100%;
     z-index: 100;
@@ -38,8 +38,16 @@ canvas {
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
-    height: 50%;
+    height: 33.33%;
     width: 33.33%;
+}
+
+#touchControls .span1_5 {
+    width: 50%;
+}
+
+#touchControls .span3 {
+    width: 100%;
 }
 
 #touchControls .disabled {
@@ -100,8 +108,4 @@ canvas {
 
 #touchControls .clockwise {
     background-image: url(images/clockwise.png);
-}
-
-#touchControls .counterclockwise {
-    background-image: url(images/counterclockwise.png);
 }

@@ -78,10 +78,13 @@
         });
         
         setInterval(function () {
-            var newControlSet = 'playerSelect';
+            var newControlSet = 'disabled';
             if (RuneWizard.display == RuneWizardCanvas) {
                 switch (RuneWizardCanvas.stage) {
                     case 0:
+                    case 4:
+                        newControlSet = 'disabled';
+                        break;
                     case 1:
                         newControlSet = 'title';
                         break;
@@ -94,6 +97,8 @@
                 }
             } else if (RuneWizard.display == BoardCanvas) {
                 newControlSet = 'board';
+            } else if (RuneWizard.display == EndingCanvas) {
+                newControlSet = 'disabled';
             }
             if (newControlSet != controlSet) {
                 $('#' + controlSet + 'ControlSet').hide();

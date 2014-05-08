@@ -22,21 +22,30 @@
         <img id="graphics" src="graphics.png" style="display: none"/>
         <canvas></canvas>
         <div id="touchControls">
+            <div id="disabledControlSet">
+                <div class="control span3 disabled">&nbsp;</div>
+                <div class="control span3 disabled">&nbsp;</div>
+                <div class="control span3 disabled">&nbsp;</div>
+            </div>
             <div id="titleControlSet">
-                <div class="control disabled">&nbsp;</div><div class="control color2 up" data-keycode="UP">&nbsp;</div><div class="control color1 fire" data-keycode="FIRE">&nbsp;</div>
-                <div class="control disabled">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control disabled">&nbsp;</div>
+                <div class="control span3 disabled">&nbsp;</div>
+                <div class="control disabled">&nbsp;</div><div class="control color2 up" data-keycode="UP">&nbsp;</div><div class="control disabled">&nbsp;</div>
+                <div class="control disabled">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control color1 fire" data-keycode="FIRE">&nbsp;</div>
             </div>
             <div id="howToPlayControlSet">
+                <div class="control span3 disabled">&nbsp;</div>
                 <div class="control disabled">&nbsp;</div><div class="control color2 up" data-keycode="UP">&nbsp;</div><div class="control disabled">&nbsp;</div>
                 <div class="control color3 left" data-keycode="LEFT">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control disabled">&nbsp;</div>
             </div>
             <div id="playerSelectControlSet">
+                <div class="control span3 disabled">&nbsp;</div>
                 <div class="control disabled">&nbsp;</div><div class="control color2 up" data-keycode="UP">&nbsp;</div><div class="control color1 fire" data-keycode="FIRE">&nbsp;</div>
                 <div class="control color3 left" data-keycode="LEFT">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control color3 right" data-keycode="RIGHT">&nbsp;</div>
             </div>
             <div id="boardControlSet">
-                <div class="control color1 counterclockwise" data-keycode="FIRE">&nbsp;</div><div class="control disabled">&nbsp;</div><div class="control color1 clockwise" data-keycode="UP">&nbsp;</div>
-                <div class="control color3 left" data-keycode="LEFT">&nbsp;</div><div class="control color4 down" data-keycode="DOWN">&nbsp;</div><div class="control color3 right" data-keycode="RIGHT">&nbsp;</div>
+                <div class="control span3 color2 clockwise" data-keycode="UP">&nbsp;</div>
+                <div class="control span1_5 color4 left" data-keycode="LEFT">&nbsp;</div><div class="control span1_5 color3 right" data-keycode="RIGHT">&nbsp;</div>
+                <div class="control span3 color1 down" data-keycode="DOWN">&nbsp;</div>
             </div>
         </div>
     </body>
