@@ -378,6 +378,12 @@
                 g.drawImage(RuneWizard.graphics, 273, 60, 5, 6, x, y, 5, 6);
             } else if (character == '/') {
                 g.drawImage(RuneWizard.graphics, 278, 60, 5, 6, x, y, 5, 6);
+            } else if (character == '0') {
+                g.drawImage(RuneWizard.graphics, 283, 60, 5, 6, x, y, 5, 6);
+            } else if (character == '1') {
+                g.drawImage(RuneWizard.graphics, 288, 60, 5, 6, x, y, 5, 6);
+            } else if (character == '4') {
+                g.drawImage(RuneWizard.graphics, 293, 60, 5, 6, x, y, 5, 6);
             }
             x = x + 6;
         }
