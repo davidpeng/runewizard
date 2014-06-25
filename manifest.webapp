@@ -1,0 +1,18 @@
+{
+    "name": "Rune Wizard",
+    "description": "Prevent your screen from filling to the top with blocks by eliminating them in the right strategy to send the most damage to your opponent.",
+    "launch_path": "/index.html",
+    "icons": {
+        "32": "/icon-32.png",
+        "60": "/icon-60.png",
+        "90": "/icon-90.png",
+        "120": "/icon-120.png",
+        "128": "/icon-128.png"
+    },
+    "developer": {
+        "name": "David Peng",
+        "url": "http://z10.us"
+    },
+    "default_locale": "en",
+    "fullscreen": "true"
+}
